@@ -1,0 +1,49 @@
+p {
+    margin: 0px;
+    padding: 15px;
+    background: white;
+    color: darkgreen;
+    border: 1.5px solid darkgreen;
+}
+
+.plan-menu {
+    margin: 20px;
+    margin-left: 0;
+    margin-right: 25%;
+    padding: 46px 32px;
+    background: lightgreen;
+    border: 5px solid darkgreen;
+    border-left: 0;
+}
+
+.plan-menu a {
+    text-decoration: none;
+}
+
+.plan-menu h1 {
+    color: black;
+}
+
+.plan-menu h2 {
+    color: gray;
+}
+
+.plus-plan {
+    background: #b7f0ca;
+}
+
+.free-plan {
+    background: #dff1e5;
+}
+
+.premium-plan {
+    background: #175c2e;
+}
+
+.premium-plan h1 {
+    color: white;
+}
+
+.premium-plan h2 {
+    color: #ccc;
+}
