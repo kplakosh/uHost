@@ -24,6 +24,7 @@ p {
     margin: 16px 0;
     border: 5px solid #0e4f1f;
     border-left: none;
+    position: relative;
 }
 
 .package a {
@@ -37,16 +38,27 @@ p {
     color: black;
 }
 
+#package_badge {
+    position: absolute;
+    margin: 20px;
+    top: 0;
+    right: 40px;
+    font-size: 12px;
+    color: white;
+    background: #ff5454;
+    padding: 8px;
+}
+
 .package h2 {
     color: gray;
 }
 
 .plus-plan {
-    background: #b7f0ca;
+    background: rgba(183, 240, 202, 0.9);
 }
 
 .free-plan {
-    background: #dff1e5;
+    background: rgba(223, 241, 229, 0.9);
     float: right;
     border-right: none;
     border-left: 5px solid #0e4f1f;
@@ -54,7 +66,7 @@ p {
 }
 
 .premium-plan {
-    background: #175c2e;
+    background: rgba(23, 92, 46, 0.9);
 }
 
 .premium-plan h1 {

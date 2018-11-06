@@ -14,6 +14,7 @@ body {
     position: fixed;
     background: green;
     padding: 8px 16px;
+    z-index: 1;
 }
 
 .main-header__brand {
@@ -61,14 +62,14 @@ body {
 
 .main-nav_item--cta a {
     color: white;
-    background: #ff1b68;
+    background: #ff5454;
     padding: 8px 16px;
     border-radius: 8px;
 }
 
 .main-nav_item--cta a:hover,
 .main-nav_item--cta a:active {
-    color: #ff1b68;
+    color: #ff5454;
     background: white;
     border: none;
 }
