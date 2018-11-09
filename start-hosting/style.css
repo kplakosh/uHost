@@ -61,9 +61,23 @@ main {
     border: #0e4f1f;
 }
 
+.signup-form input.invalid,
+.signup-form select.invalid,
+.signup-form :invalid {
+    border-color: red !important;
+    background: #faacac;
+}
+
 .signup-form button[type="submit"] {
     display: block;
     margin-top: 1rem;
+}
+
+.button[disabled] {
+    cursor: not-allowed;
+    border: #a1a1a1;
+    background: #ccc;
+    color: #a1a1a1;
 }
 
 @media (min-width: 40rem) {
