@@ -5,7 +5,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+}
 
+main {
+  min-height: calc(100vh - 3.5rem - 8rem);
+  margin-top: 3.5rem;
 }
 
 .backdrop {
@@ -29,6 +33,11 @@ body {
   background: #2ddf5c;
   padding: 0.5rem 1rem;
   z-index: 1;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .main-header__brand {
@@ -69,15 +78,8 @@ body {
   margin: 0.6rem 0;
 }
 
-.main-header > div {
-    display: inline-block;
-    vertical-align: middle;
-}
-
 .main-nav {
     display: inline-block;
-    /* text-align: right;
-    width: calc(100% - 122px); */
 }
 
 .main-nav_items {
