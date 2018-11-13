@@ -224,7 +224,7 @@ main {
 
     .main-footer__links {
         flex-direction: row;
-        align-items: center;
+        justify-content: center;
     }
 }
 
