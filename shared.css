@@ -203,7 +203,6 @@ main {
     background: black;
     padding: 2rem;
     margin-top: 3rem;
-    /* grid-row: 3 / 4; */
     grid-area: footer;
 }
 
