@@ -126,7 +126,7 @@ main {
 }
 
 .main-nav_item--cta {
-    animation: wiggle 200ms 3s 8 none;
+    animation: wiggle 400ms 3s 8 none;
 }
 
 .main-nav_item--cta a:hover,
@@ -255,10 +255,13 @@ main {
 }
 
 @keyframes wiggle {
-    from {
-        transform: rotateZ(-10deg);
+    0% {
+        transform: rotateZ(0deg);
     } 
-    to {
+    50% {
+        transform: rotateZ(-10deg)
+    }
+    100% {
         transform: rotateZ(10deg);
     }
 }
