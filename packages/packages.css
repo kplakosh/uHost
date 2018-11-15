@@ -11,15 +11,6 @@ main {
     z-index: -1;
 }
 
-/* p {
-    margin: 0px;
-    padding: 0.95rem;
-    font-size: 1.2rem;
-    background: white;
-    color: #0e4f1f;
-    border: 1.5px solid #0e4f1f;
-} */
-
 .package {
     width: 80%;
     margin: 1rem 0;
@@ -29,16 +20,16 @@ main {
     overflow: hidden;
 }
 
+.package:hover {
+    animation: push-up 1s ease-out forwards;
+}
+
 .package a {
     text-decoration: none;
     color: inherit;
     display: block;
     padding: 2rem;
 }
-
-/* .package h1 {
-    color: black;
-} */
 
 .package h2 {
     color: gray;
@@ -115,4 +106,16 @@ main {
     #free:active {
       border-right-color: #ff5454;
     }
+}
+
+@keyframes push-up {
+  0% {
+    transform: translateY(0);
+  }
+  33% {
+    transform: translateY(-1.5rem);
+  }
+  100% {
+    transform: translateY(-1rem);
+  }
 }
